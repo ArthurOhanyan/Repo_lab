@@ -1,6 +1,8 @@
 #include <iostream>
 
+
 int fact (int);
+
 int bar (int);
 
 int main ()
@@ -8,9 +10,11 @@ int main ()
 	int num = 0; 
 	std::cin >> num;
 	std::cout << fact (num) << std::endl;
+
 	std::cout << bar (num) << std::endl;
 }
 int bar (int num)
+
 {
 	if (num <= 2){
 		
