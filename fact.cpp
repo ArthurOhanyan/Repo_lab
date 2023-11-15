@@ -1,16 +1,17 @@
 #include <iostream>
 
+
 int fact (int);
-int fib (int);
+int foo (int);
 
 int main ()
 {
 	int num = 0; 
 	std::cin >> num;
 	std::cout << fact (num) << std::endl;
-	std::cout << fib (num) << std::endl;
+	std::cout << foo (num) << std::endl;
 }
-int fib (int num)
+int foo (int num)
 {
 	if (num <= 2){
 		
