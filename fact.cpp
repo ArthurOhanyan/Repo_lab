@@ -2,16 +2,19 @@
 
 
 int fact (int);
-int foo (int);
+
+int bar (int);
 
 int main ()
 {
 	int num = 0; 
 	std::cin >> num;
 	std::cout << fact (num) << std::endl;
-	std::cout << foo (num) << std::endl;
+
+	std::cout << bar (num) << std::endl;
 }
-int foo (int num)
+int bar (int num)
+
 {
 	if (num <= 2){
 		
